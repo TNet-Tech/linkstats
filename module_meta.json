@@ -1,0 +1,24 @@
+{
+  "name": "linkstats",
+  "display_name": "Link Stats",
+  "version": "0.1.0",
+  "author": "Jonas",
+  "description": "Click analytics for shortlinks: totals, unique visitors, clicks per day, top referers and browsers.",
+  "entry_point": "linkstats_src.main:setup_plugin",
+  "test_entry_point": "linkstats_src.tests.test_module:run_module_tests",
+  "base_path_prefix": "/linkstats",
+  "dependencies_file": "requirements.txt",
+  "module_dependencies": {
+    "required": [
+      "shortlinks"
+    ],
+    "optional": []
+  },
+  "required_chacc_version": ">=1.0.0",
+  "license": "MIT",
+  "tags": [
+    "linkstats",
+    "demo"
+  ],
+  "homepage": "https://github.com/your-org/linkstats"
+}

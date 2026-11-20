@@ -17,8 +17,7 @@
   "required_chacc_version": ">=1.0.0",
   "license": "MIT",
   "tags": [
-    "linkstats",
-    "demo"
+    "linkstats"
   ],
-  "homepage": "https://github.com/your-org/linkstats"
+  "homepage": "https://github.com/tnet-tech/linkstats"
 }
